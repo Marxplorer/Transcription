@@ -20,7 +20,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-#start-btn {
+#start-btn, #stop-btn {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
@@ -29,9 +29,10 @@ h1 {
     border: none;
     border-radius: 5px;
     transition: background-color 0.3s;
+    margin: 5px;
 }
 
-#start-btn:hover {
+#start-btn:hover, #stop-btn:hover {
     background-color: #0056b3;
 }
 
@@ -43,7 +44,7 @@ h1 {
     border-radius: 5px;
     min-height: 150px;
     text-align: left;
-    font-size: 16px;
+    font-size: 24px; /* Taille de police plus grande */
     line-height: 1.5;
     overflow-y: auto;
 }
